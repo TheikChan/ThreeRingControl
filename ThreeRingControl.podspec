@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ThreeRingControl"
+  s.name         = "TestFramework"
   s.version      = "1.0.0"
   s.summary      = "A three-ring control like the Activity status bars"
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
+  s.source_files  = "TestFramework", "TestFramework/**/*.{h,m,swift}"
   #"Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources    = "ThreeRingControl/*.mp3"
+  s.resources    = "TestFramework/*.mp3"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
